@@ -6,7 +6,6 @@ import Drawer from '@material-ui/core/Drawer';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
-import Divider from '@material-ui/core/Divider';
 import IconButton from '@material-ui/core/IconButton';
 import Container from '@material-ui/core/Container';
 
@@ -152,7 +151,6 @@ export default function Navbars() {
             <BsChevronLeft />
           </IconButton>
         </div>
-        {/* <Divider className={classes.dividerColor} /> */}
         <SideDrawerList />
 
 

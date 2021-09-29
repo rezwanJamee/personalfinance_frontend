@@ -8,7 +8,6 @@ import Status from '../Components/Status';
 import { WiDirectionUpRight, WiDirectionDownRight } from 'react-icons/wi';
 import DashChart from '../Components/DashChart';
 import DashCategory from '../Components/DashCategry';
-import { GiHand } from 'react-icons/gi';
 import DashSnackbar from '../Components/DashSnackbar';
 
 const useStyles = makeStyles((theme) => ({
