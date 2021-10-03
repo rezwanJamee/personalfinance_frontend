@@ -76,14 +76,10 @@ const Dashboard = () => {
 
             <Pageheading subtitle="dashboard" pageTitle="Overview" />
 
-            <Typography variant='body2' className={classes.todayDate}>
-                Last updated 23rd September 2021
-            </Typography>
-
             <Grid container spacing={3}>
                 <Grid item xs={12} sm={12} md={4}>
                     <Paper>
-                        <Status title="Total balance" subTitle="Since last update" amount="500.00" />
+                        <Status title="Total balance" subTitle="Since last update" amount="2509.43" />
                     </Paper>
                 </Grid>
                 <Grid item xs={12} sm={6} md={4}>
@@ -95,7 +91,7 @@ const Dashboard = () => {
                                 </IconButton>
                             </Grid>
                             <Grid item >
-                                <Status title="Income this month" subTitle="+ 2.6 %" amount="150.00" up={false}/>
+                                <Status title="Income this month" subTitle="+ 2.6 %" amount="1500.00" up={false}/>
                             </Grid>
                         </Grid>
                     </Paper>
@@ -109,7 +105,7 @@ const Dashboard = () => {
                                 </IconButton>
                             </Grid>
                             <Grid item >
-                                <Status title="Expense this month" subTitle="- 5 %" amount="150.00"/>
+                                <Status title="Expense this month" subTitle="- 5 %" amount="1950.49"/>
                             </Grid>
                         </Grid>
                     </Paper>

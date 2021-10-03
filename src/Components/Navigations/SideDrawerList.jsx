@@ -25,6 +25,7 @@ export default function SideDrawerList({ handleDrawerClose }) {
     ]
     const sublistData = [
         { label: "Add Transaction", link: "/add", icon: <CgPlayListAdd size={25} /> },
+        { label: "Add Income", link: "/addincome", icon: <CgPlayListAdd size={25} /> },
         { label: "Add Account", link: "/addaccount", icon: <BiAddToQueue size={25} /> },
         { label: "User", link: "/user", icon: <BsPersonFill size={25} /> }
     ]

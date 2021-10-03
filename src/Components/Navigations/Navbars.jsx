@@ -17,7 +17,7 @@ import SideDrawerList from './SideDrawerList';
 import PageHolder from '../PageHolder';
 import NotificationsBtn from './NotificationsBtn';
 
-const drawerWidth = 240;
+const drawerWidth = 260;
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -134,7 +134,7 @@ export default function Navbars() {
             <HiMenuAlt1 size={25} />
           </IconButton>
           <Typography component="h1" variant="h6" noWrap className={classes.title}>
-            FinTech
+            Personal Finance
           </Typography>
           <NotificationsBtn />
         </Toolbar>
