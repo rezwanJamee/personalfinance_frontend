@@ -25,7 +25,7 @@ const DashSnackbar = () => {
         <div>
             <Snackbar open={open} autoHideDuration={6000} onClose={handleClose}>
                 <Alert onClose={handleClose} severity="info">
-                    This application is shows the frontend part of the actual application with dummy data!
+                    The graph showcase based on some dummy data!
                 </Alert>
             </Snackbar>
         </div>

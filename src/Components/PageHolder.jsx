@@ -13,6 +13,9 @@ import {
   } from "react-router-dom";
 import AddTransaction from '../Pages/AddTransaction';
 import { AddAccount } from '../Pages/AddAccount';
+import Income from '../Pages/Income';
+import User from '../Pages/User';
+import { AddIncome } from '../Pages/AddIncome';
 
 
 const PageHolder = () => {
@@ -27,8 +30,12 @@ const PageHolder = () => {
                 <Route exact path="/add" render={() => <AddTransaction /> } /> 
                 <Route exact path="/addaccount" render={() => <AddAccount /> } />
 
-                <Route exact path="/" render={() => <Dashboard /> } />
+                <Route exact path="/income" render={() => <Income /> } />
+                <Route exact path="/addincome" render={() => <AddIncome /> } />
 
+                <Route exact path="/user" render={() => <User /> } />
+
+                <Route exact path="/" render={() => <Dashboard /> } />
                 <Route exact path="/*" render={() => <Errorpage /> } /> 
             </Switch>
         </>

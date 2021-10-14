@@ -9,6 +9,7 @@ import { MdAccountBalance } from 'react-icons/md';
 import { BiTransferAlt } from 'react-icons/bi';
 import { FaChartPie } from 'react-icons/fa';
 import { IoDocument } from 'react-icons/io5';
+import { GiTwoCoins } from 'react-icons/gi'; 
 import { CgPlayListAdd } from 'react-icons/cg';
 import { BiAddToQueue } from 'react-icons/bi';
 import { BsPersonFill } from 'react-icons/bs'; 
@@ -20,13 +21,14 @@ export default function SideDrawerList({ handleDrawerClose }) {
         { label: "Dashboard", link: "/", icon: <RiStackLine size={25} /> },
         { label: "Accounts", link: "/account", icon: <MdAccountBalance size={25} /> },
         { label: "Transactions", link: "/transaction", icon: <BiTransferAlt size={25} /> },
-        { label: "Portfolio", link: "/portfolio", icon: <FaChartPie size={22} /> },
-        { label: "Report", link: "/Report", icon: <IoDocument size={25}/> }
+        { label: "Incomes", link: "/income", icon: <GiTwoCoins size={25} /> },
+        // { label: "Portfolio", link: "/portfolio", icon: <FaChartPie size={22} /> },
+        // { label: "Report", link: "/Report", icon: <IoDocument size={25}/> }
     ]
     const sublistData = [
+        { label: "Add Account", link: "/addaccount", icon: <BiAddToQueue size={25} /> },
         { label: "Add Transaction", link: "/add", icon: <CgPlayListAdd size={25} /> },
         { label: "Add Income", link: "/addincome", icon: <CgPlayListAdd size={25} /> },
-        { label: "Add Account", link: "/addaccount", icon: <BiAddToQueue size={25} /> },
         { label: "User", link: "/user", icon: <BsPersonFill size={25} /> }
     ]
 
